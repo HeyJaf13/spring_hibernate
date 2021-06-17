@@ -27,7 +27,7 @@ public class MainApp {
 
       Car priora = new Car("priora", 666);
       Car vesta = new Car("vesta", 110);
-      Car zaz = new Car("zaz0", 321);
+      Car zaz = new Car("zazw", 321);
       Car uaz = new Car("uaz", 777);
 
       bob.setCar(priora);
@@ -48,7 +48,7 @@ public class MainApp {
       }
 
 
-      System.out.println(userService.getUserByCar("zaz0", 321));
+      System.out.println(userService.getUserByCar("zazw", 321));
 
 
 
